@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Young-Serif';
+    line-height: 1.6;
+    background-color: bisque;
+   
+    
+}
+img{
+    width: 656px;
+    height: 300px;
+    border-radius: 16px;
+}
+h2,h3{
+    color: #78284E;
+}
+li{
+    color: #5F564D;  
+}
+li::marker{
+    color: #78284E;
+}
+
+
+.main-recipe-container{
+    display: flex ;
+    flex-direction: column;
+    flex-flow: column wrap;
+    background-color: white;
+    height: 1700px;
+    width:736px ;
+    margin-inline: auto;
+
+}
+
+.prep-time-container{
+    background-color: #FFF7FB;
+    padding: 1.5rem;
+    border-radius: 16px;
+}
+
+
