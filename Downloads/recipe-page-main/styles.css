@@ -9,12 +9,7 @@ body{
     line-height: 1.6;
     background-color: bisque;
    
-    
-}
-img{
-    width: 656px;
-    height: 300px;
-    border-radius: 16px;
+
 }
 h2,h3{
     color: #78284E;
@@ -25,17 +20,39 @@ li{
 li::marker{
     color: #78284E;
 }
-
-
-.main-recipe-container{
-    display: flex ;
+hr{
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.recipe-container{
+    display: flex;
     flex-direction: column;
-    flex-flow: column wrap;
+    justify-content: center;
     background-color: white;
-    height: 1700px;
-    width:736px ;
-    margin-inline: auto;
+    width: 760px;
+    margin:auto;
+    border-radius: 16px;
+    padding: 50px 50px 50px 50px;
+    flex:1
+}
 
+.introduction img{
+    width: 656px;
+    height: 300px;
+    border-radius: 16px;
+    align-items: center;
+    margin: auto;
+}
+.recipe-title{
+    font-size: 2rem;
+   margin-top:40px ;
+   margin-bottom:24px ;
+}
+.introduction p{
+    font-family: "Outfit";
+    color: #5F564D;
+    margin-bottom: 32px;
+    font-weight: 300;
 }
 
 .prep-time-container{
@@ -44,4 +61,53 @@ li::marker{
     border-radius: 16px;
 }
 
+.prep-time h3{
+font-size: 1.25rem;
+font-family: "Outfit";
+margin-bottom: 16px;
+}
+.prep-time li{
+    line-height: 2;
+    font-family:"Outfit";
+    font-weight: 300;
+}
+
+.ingredients h2{
+    margin-top: 32px;
+    margin-bottom: 24px;
+    font-size: 28px;
+}
+
+.ingredients li{
+list-style-position:inside ;
+ font-family: "Outfit"; 
+ font-weight: 300;  
+ line-height: 2;
+}
+
+.instructions h2{
+    margin-bottom: 24px;
+    font-size: 28px;
+}
+.instructions li{
+    list-style-position:inside ;
+    font-family: "Outfit"; 
+    font-weight: 300;  
+    line-height: 2.3;
+}
+.instructions ol>li::marker{
+    font-weight: 900;
+}
+
+.nutrition h2{
+    margin-bottom: 24px;
+    font-size: 28px;
+}
+.nutrition p {
+    font-family: "Outfit";
+    font-weight: 250;
+}
+.nutrition table{
+    margin-top: 24px;
+}
 
