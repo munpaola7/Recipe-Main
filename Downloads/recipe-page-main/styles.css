@@ -35,18 +35,18 @@ hr{
     flex-direction: column;
     justify-content: center;
     background-color: white;
-    width: 760px;
+    max-width: 760px;
+    width: 90%;
     margin: 128px auto;
     border-radius: 16px;
-    padding: 50px 50px 50px 50px;
-    flex:1
+    padding: 3rem;
 }
 
 .introduction img{
-    width: 656px;
+    max-width: 656px;
+    width: 100%;
     height: 300px;
     border-radius: 16px;
-    align-items: center;
     margin: auto;
 }
 .recipe-title{
@@ -79,7 +79,7 @@ margin-bottom: 16px;
 .ingredients h2{
     margin-top: 32px;
     margin-bottom: 24px;
-    font-size: 1.75 rem;
+    font-size: 1.75rem;
 }
 
 .ingredients li{
@@ -90,7 +90,7 @@ list-style-position:inside ;
 
 .instructions h2{
     margin-bottom: 24px;
-    font-size: 1.75 rem;
+    font-size: 1.75rem;
 }
 .instructions li{
     list-style-position:inside ; 
@@ -116,14 +116,16 @@ list-style-position:inside ;
     border-collapse: collapse;
     margin: 25px 0;
     font-size:0.9em ;
-    min-width: 600px;
-
+    width: 100%;
+    max-width: 600px;
+    display:table;
 }
 
 .nutrition-table th{
 font-family: "Outfit";
 font-weight: 300;
-padding: 12px 100px;
+padding: 12px 50px;
+word-wrap: break-word;
 
 }
 
@@ -131,7 +133,8 @@ padding: 12px 100px;
     font-family: "Outfit";
     font-weight: 700;
     color: #78284E;
-    padding: 12px 100px;
+    padding: 12px 50px;
+    word-wrap: break-word;
 }
 
 .nutrition-table tbody tr{
