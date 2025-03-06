@@ -5,11 +5,14 @@
 }
 
 body{
-    font-family: 'Young-Serif';
+    font-family: 'Outfit',sans-serif;
     line-height: 1.6;
     background-color: bisque;
    
 
+}
+h1,h2{
+    font-family: 'Young-Serif';  
 }
 h2,h3{
     color: #78284E;
@@ -33,7 +36,7 @@ hr{
     justify-content: center;
     background-color: white;
     width: 760px;
-    margin:auto;
+    margin: 128px auto;
     border-radius: 16px;
     padding: 50px 50px 50px 50px;
     flex:1
@@ -52,7 +55,6 @@ hr{
    margin-bottom:24px ;
 }
 .introduction p{
-    font-family: "Outfit";
     color: #5F564D;
     margin-bottom: 32px;
     font-weight: 300;
@@ -66,35 +68,32 @@ hr{
 
 .prep-time h3{
 font-size: 1.25rem;
-font-family: "Outfit";
 margin-bottom: 16px;
 }
+
 .prep-time li{
     line-height: 2;
-    font-family:"Outfit";
     font-weight: 300;
 }
 
 .ingredients h2{
     margin-top: 32px;
     margin-bottom: 24px;
-    font-size: 28px;
+    font-size: 1.75 rem;
 }
 
 .ingredients li{
 list-style-position:inside ;
- font-family: "Outfit"; 
  font-weight: 300;  
  line-height: 2;
 }
 
 .instructions h2{
     margin-bottom: 24px;
-    font-size: 28px;
+    font-size: 1.75 rem;
 }
 .instructions li{
-    list-style-position:inside ;
-    font-family: "Outfit"; 
+    list-style-position:inside ; 
     font-weight: 300;  
     line-height: 2.3;
 }
@@ -107,7 +106,6 @@ list-style-position:inside ;
     font-size: 28px;
 }
 .nutrition p {
-    font-family: "Outfit";
     font-weight: 250;
 }
 .nutrition table{
@@ -138,4 +136,10 @@ padding: 12px 100px;
 
 .nutrition-table tbody tr{
     border-bottom: 1px solid #E3DDD7;
+}
+
+.attribution{
+    display: flex;
+    margin: auto;
+    justify-content: center;
 }
